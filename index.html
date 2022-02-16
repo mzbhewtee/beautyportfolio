@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=devicewidth, intial-scale=1.0">
+    <title>Ikudehinbu Beauty Portfolio</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://kit.fontawesome.com/b75e65041b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="assets/Logo.png" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="#"><strong>HOME</strong></a></li>
+                    <li><a href="#"><strong>ABOUT</strong></a></li>
+                    <li><a href="#"><strong>PORTFOLIO</strong></a></li>
+                    <li><a href="#"><strong>CONTACT</strong></a></li>
+                </ul>
+            </nav>
+            <img src="assets/Menu.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+        <div class="intro">
+            <h3>I'M</h3>
+            <h1>BEAUTY</h1>
+        <a href="https://docs.google.com/document/d/11Q-SpQXZZR0zsN_M2riiU3gjhyrtDEyLwieb0rm_id4/edit?usp=sharing">Resume &#11013</a>
+        <span>View my resume here.</span>
+        
+        <footer>
+            <div class="content">
+                <h3>First Web Development</h3>
+                <ul class="social">
+                    <li><a href="https://github.com/mzbhewtee"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://linkedin.com/in/beauty-ikudehinbu"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="https://abimbolaikus@gmail.com"><i class="fa-brands fa-google"></i></a></li>
+                    <li><a href="https://www.facebook.com/ikudehinbu.josephine"><i class="fa-brands fa-facebook"></i></a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <p>copyright &copy;2022 Beauty Ikudehinbu. Designed by <span>Beauty Ikudehinbu</span></p>
+            </div>
+
+        </footer>
+        <script>
+
+            var menuList = document.getElementById("menuList");
+            menuList.style.maxHeight = "0px";
+            function togglemenu(){
+                if(menuList.style.maxHeight == "0px"){
+                    menuList.style.maxHeight = "130px";
+                    }
+                else{
+                    menuList.style.maxHeight = "0px";
+                }
+            }
+        </script>
+</body>
+</html>
